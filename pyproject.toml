@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "LlamApprenticeship"
+version = "0.1.0"
+description = "LLM assistant that helps answer specific questions about the Building Code for tradespeople (plumbing, electrician) or professionals (engineers, architects)."
+authors = ["Author Name <salgadev@proton.me>"]
+# readme = "README.md"
+# license = "BSD"
+packages = [
+  { include = "sample_package" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+trulens = "^0.13.4"
+llama-parse = "^0.4.2"
+openai = "^1.23.6"
+
+[tool.poetry.dev-dependencies]
+jupyterlab = "^4.1.8"
+python-dotenv = "^1.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
