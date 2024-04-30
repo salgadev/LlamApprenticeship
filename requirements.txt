@@ -2,3 +2,8 @@ llama-index-storage-docstore-mongodb
 llama-index-storage-index-store-mongodb
 llama-index-llms-openai
 pymongo
+matplotlib
+llama-index-readers-file
+python-dotenv
+motor
+llama-index-embeddings-openai
